@@ -29,7 +29,7 @@ int main() {
     int result = printColorMap();
     assert(result == 25);
 	testPairToNumber(WHITE, BROWN, 4);
-    testPairToNumber(VIOLET, SLATE, 24);
+	testPairToNumber(VIOLET, BLUE, 21);
     std::cout << "All is well (maybe!)\n";
     return 0;
 }
